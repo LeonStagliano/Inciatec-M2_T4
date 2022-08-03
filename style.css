@@ -1,0 +1,51 @@
+.main-text{
+    font-family: 'Spectral SC', serif;;
+}
+.member-name:hover, .link-mail:hover{
+    color:cadetblue !important
+}
+
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -2;
+    position: fixed;
+}
+
+body{
+    position: relative;
+}
+
+.nav-link{
+    -webkit-text-stroke: 0.8px black;
+    font-size: 20px;
+}
+
+.hero-content{
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 a{
+    -webkit-text-stroke: 2px rgb(60, 60, 60);
+    color: transparent;
+    transition: 1s;
+    font-family: 'Tulpen One', cursive;
+    font-size: 80px;
+}
+
+.hero-content h1 a{
+    font-size: 120px;
+    -webkit-text-stroke: 2px rgb(60, 60, 60);
+    color: transparent;
+    transition: 1s;
+}
+
+.hero-content h1 a:hover, h1 a:hover{
+    color:rgba(60, 60, 60)
+}
+
